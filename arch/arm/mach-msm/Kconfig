@@ -1941,12 +1941,6 @@ config CPU_OVERCLOCK
 	help
 	  Krait overclocking up to 2.5 GHz
 
-config CPU_UNDERCLOCK
-	bool "Enable CPU Underclocking"
-	default n
-	help
-	  Krait underclocking
-
 config OC_ULTIMATE
         bool "Enable Ultimate Overclocking option"
 	depends on CPU_OVERCLOCK
